@@ -1,0 +1,10 @@
+html{
+    background-color: rgb(132, 194, 159);
+}
+#mainHeader, #searchBtn{
+    background-color: rgba(159, 239, 160, 0.697);
+    color: rgb(48, 134, 53);
+}
+#bgSearch{
+    background-color: rgba(89, 211, 156, 0.697);
+}
