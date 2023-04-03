@@ -14,18 +14,23 @@
     <div id="mainHeader" class="d-flex justify-content-center">
         <h1>Weather Dashboard</h1>
     </div>
-    <div class = "container-fluid">
-        <div class = "row">
-            <div class = "col-lg-3" id = "bgSearch">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3" id="bgSearch">
                 <h1>Search for a City:</h1>
-                <div class ="form-inline form-group d-grid">
-                    <input class = "form-control" type="text" id = "searchVal"/>
-                    <button class = "btn" id ="searchBtn"> <i class="fa fa-search"></i>Search</button>
+                <div class="form-inline form-group d-grid">
+                    <input class="form-control" type="text" id="searchVal" />
+                    <button class="btn" id="searchBtn"> <i class="fa fa-search"></i>Search</button>
                 </div>
+                <ul class="list-group history"></ul>
+            </div>
+            <div class="col-lg-8">
+                <div id="current" class="mt-4"></div>
+                <div id="forcast" class="card-deck mt-4"></div>
             </div>
         </div>
     </div>
-<script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
