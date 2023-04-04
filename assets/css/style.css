@@ -1,7 +1,7 @@
 html{
     background-color: rgb(132, 194, 159);
 }
-#mainHeader, #searchBtn{
+#mainHeader, #searchBtn, #bgCard{
     background-color: rgba(159, 239, 160, 0.697);
     color: rgb(48, 134, 53);
 }
