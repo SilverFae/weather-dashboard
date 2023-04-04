@@ -12,15 +12,6 @@ $(document).ready(function () {
   //pulls our previous searches from local storage
   var userHistory = JSON.parse(localStorage.getItem("history")) || [];
 
-  //sets history array search the correct length
-  if (userHistory.length > 0) {
-    weatherFunction(userHistory[userHistory.length - 1]);
-  }
-  //makes a row for each element
-  for (var i = 0; i < userHistory.length; i++) {
-    createRow(userHistory[i]);
-  }
-
   function weatherFunction(searchInput) {
 
     $.ajax({
